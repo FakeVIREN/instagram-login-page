@@ -1,0 +1,201 @@
+body{
+background-color:rgb(250,250,250);
+box-sizing: border-box;
+padding:0;
+margin:0;
+font-family:'Segoe UI', Helvetica, Arial, sans-serif;
+
+
+
+
+}
+
+.main, .second{
+background-color:#FFFFFF;
+border:1px solid #DBDBDB;
+/* width:25.5vw; */
+width:22.5rem;
+margin:auto;
+margin-top:.7rem;
+;}
+.insta-img{
+margin-top:3rem;
+margin-bottom:2.5rem;}
+
+input{
+background-color:rgb(250,250,250);
+border:1px solid #DBDBDB;
+
+    overflow: hidden;
+    padding: 9px 0 7px 8px;
+font-weight:normal;
+color:rgb(38,38,38);
+font-size:12px;
+width:16.2rem;
+height:1.2rem;
+border:1px solid rgb(219,219,219);
+border-radius:3px;
+margin-bottom:.4rem;
+font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+button{
+background-color:rgb(77,181,249);
+width:16.8rem;
+height:2rem;
+color:rgb(246,252,255);
+border:1px solid transparent;
+border-radius:8px;
+margin-top:.5rem;
+font-family:'Segoe UI', Helvetica, Arial, sans-serif;
+font-size:90%;
+font-weight:bold;
+}
+.or{display:flex;
+flex-direction:row;
+width:20rem;
+margin-top:1rem;
+margin-bottom:1rem;
+font-family:'Segoe UI', Helvetica, Arial, sans-serif;
+font-size:80%;
+font-weight:500;
+color:rgb(142,142,142);
+}
+.first-hr,.second-hr{
+
+    width: 6rem;
+    border-bottom: none;
+    border: .5px solid rgb(221, 216, 216);
+
+
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;}
+
+
+.container{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+
+}
+.insta-img{
+
+width:190px;
+height:190px;
+background-image:url("../img/instalogo.png");
+background-position: 0px -52px; background-size: auto;
+width: 175px;
+height: 51px;
+background-repeat: no-repeat;
+}
+.facebook-logo{
+width:16px;
+height:16px;
+background-image:url("../img/allLogo.png");
+background-position: -416px -259px;
+background-size: auto;
+background-repeat: no-repeat;
+}
+.log-in-with-facebook{
+display:flex;
+flex-direction:row;
+font-family:'Segoe UI', Helvetica, Arial, sans-serif;
+font-size:14px;
+font-weight:600;
+align-items:center;
+color:#385185;
+gap:8px;
+margin:.7rem 0  ;
+cursor:pointer;
+}
+.forgot-password{
+cursor:pointer;
+color:rgb(0,55,107);
+font-size:12px;
+font-family:'Segoe UI', Helvetica, Arial, sans-serif;
+margin-top:.5rem;
+margin-bottom:1.2rem;
+}
+.second-main-container{
+color:rgb(38,38,38);
+font-size:14px;
+display:flex;
+flex-direction:row;
+gap:5px;
+padding:1.5rem 0;
+}
+.sign-up{
+color:rgb(0,149,246);
+font-weight:600;
+cursor:pointer;
+}
+.get-the-app{
+color:rgb(38,38,38);
+font-size:14px;
+padding:1.5rem 0;
+}
+.img-of-get-the-app{
+cursor:pointer;
+display:flex;flex-direction:row;
+gap:10px;
+}
+.img-of-google-play,.img-of-Microsoft{
+height:40px;
+}
+.footer{
+color:rgb(142,142,142);
+font-weight:400px;
+font-size:12px;
+line-height:16px;
+
+}
+ul{
+list-style-type:none;
+display:flex;
+justify-content:center;
+margin:auto;
+gap:20px;
+flex-wrap:wrap;
+
+}
+.first-footer{margin-top:4.5rem;
+cursor:pointer;}
+.second-footer{margin-top:1rem;
+margin-bottom:4.5rem;
+text-decoration:none;}
+a{
+color:rgb(142,142,142);
+font-weight:400px;
+font-size:12px;
+line-height:16px;
+text-decoration:none;
+}
+a:hover{
+text-decoration:underline;
+}
+input:focus{
+border:.5px solid rgb(142,142,142);
+outline:none; 
+ outline-offset:none;
+
+}
+
+@media screen and (max-width:450px){
+.main, .second{
+border:none;
+background-color:rgb(250,250,250)}
+
+
+.top{
+
+display: flex;
+flex-direction:column;
+justify-content: center;
+width:fit-content;
+height:fit-content;
+
+}
+
+
+}
